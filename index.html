@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with triangles</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Fun with triangles</h1>
+        </div>
+        <div class="main-section">
+            <div class="area box">
+                <h2>Calculate Area</h2>
+                <img src="/images/download.jpg" alt="">
+                <br>
+                <label for="base" class="base-label">Base</label>
+                
+
+                <input class="form" type="number" id="base">
+                
+                <label for="height" class="height-label">Height</label>
+                
+
+                <input class="form" type="number" id="height">
+                <br>
+                <button class="btn" id="btn-1">Calculate</button>
+
+                <p>Area of the triangle: </p>
+                <div class="output" id="output-1"></div>
+            </div>
+            <div class="hypo box">
+                <h2>Calculate Hypotenuse</h2>
+                <img src="/images/download.jpg" alt="">
+                <br>
+                <label for="ab" class="ab-label">AB: </label>
+                
+
+                <input class="form" type="number" id="ab">
+                
+                <label for="bc" class="bc-label">BC: </label>
+                
+
+                <input class="form" type="number" id="bc">
+                <br>
+                <button class="btn" id="btn-2">Calculate</button>
+                <p>length of hypotenuse: </p>
+                <div class="output" id="output-2"></div>
+            </div>
+            <div class="angle box">
+                <h2>Check whether the angles entered makes a triangle or not!</h2>
+                <img src="/images/download.jpg" alt="">
+                <br>
+                <label for="angle1" class="angle1-label">A: </label>
+                
+
+                <input class="form" type="number" id="angle1">
+                
+                <label for="angle2" class="angle2-label">B: </label>
+                
+
+                <input class="form" type="number" id="angle2">
+                
+                <label for="angle3" class="angle3-label">C: </label>
+                
+
+                <input class="form" type="number" id="angle3">
+                <br>
+                <button class="btn" id="btn-3">Calculate</button>
+                
+                <div class="output" id="output-3">The output will be shown here</div>
+
+            </div>
+        </div>
+        <div class="quiz">
+            <button class="quiz-1"> <a href="/quiz.html"> Take a quiz</a></button>
+        </div>
+    </div>
+</body>
+<script src="/app.js"></script>
+</html>
